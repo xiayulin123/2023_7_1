@@ -31,10 +31,11 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p id="introduction" className={styles.sectionSubText}>
-          Introduction
-        </p>
+      <motion.div variants={textVariant()} id="introduction">
+        <br className="sm:block hidden"></br>
+        <br className="sm:block hidden"></br>
+        <br className="sm:block hidden"></br>
+        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 

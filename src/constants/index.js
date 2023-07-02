@@ -32,6 +32,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  zack,
 } from "../assets"
 
 export const navLinks = [
@@ -212,11 +213,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Yulin's talent, persistence, thirty of knowledge, and faith of commitment compose his fast learning ability, and remarkable productivity that is above and beyond his peers asides his academic achievements.",
+    name: "Zack Liu",
+    designation: "Full Stack Engineer/Development Manager",
+    company: "Aurora Tech Development",
+    image: zack,
   },
   // {
   //   testimonial:

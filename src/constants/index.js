@@ -28,11 +28,13 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
   zack,
+  Yi,
+  cafe,
+  university,
 } from "../assets"
 
 export const navLinks = [
@@ -156,6 +158,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Computer Engineering",
+    company_name: "University of Waterloo",
+    icon: university,
+    iconBg: "#E6DEDD",
+    date: "Sept 1 2023 - Present",
+    points: [
+      // 待修改
+      "Broad knowledge from diverse courses: University of Waterloo offers a wide curriculum, enhancing students' knowledge across various subjects and enriching their learning experience.",
+      "C++ programming: Students learn C++ and utilize it to implement various functionalities and features.",
+      "Comprehensive Computer Engineering program: University of Waterloo offers a comprehensive program covering computer architecture, software development, digital systems, networking, and more.",
+      "Code writing for Hardware: Students learn how to write code for Hardware using Quartus VHDL, specifically in the context of designing projects for FPGA.",
+    ]
+  },
+
+  {
     title: "Software Developer",
     company_name: "Caerulean AI Inc.",
     icon: reactjs,
@@ -219,14 +236,14 @@ const testimonials = [
     company: "Aurora Tech Development",
     image: zack,
   },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
+  {
+    testimonial:
+      "I highly recommend Yulin for his exceptional work ethic and extensive knowledge in our software project. His dedication, expertise, and proactive approach were instrumental in its success. Yulin's technical proficiency and excellent communication skills made him an invaluable asset to our team. It was a pleasure working with him.",
+    name: "Yi Luo",
+    designation: "Senior software architect",
+    company: "Caerulean AI",
+    image: Yi,
+  },
   // {
   //   testimonial:
   //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
@@ -239,68 +256,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cafe Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a responsive website using Node.js as the backend framework, along with HTML, CSS, and MySQL for the frontend. Implemented a user reservation system and an admin panel for efficient management.",
     tags: [
       {
-        name: "react",
+        name: "Node js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cafe,
+    source_code_link: "https://github.com/xiayulin123/user_back_end.git",
   },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ]
 
 export { services, technologies, experiences, testimonials, projects }

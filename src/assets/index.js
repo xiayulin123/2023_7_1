@@ -37,12 +37,16 @@ import shopify from "./company/shopify.png"
 import starbucks from "./company/starbucks.png"
 import tesla from "./company/tesla.png"
 
-import carrent from "./carrent.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
 import zack from "./zack.png"
-
+import Yi from './Yi.png'
+import cafe from './cafe.png'
+import university from './University.png'
 export {
+  university,
+  cafe,
+  Yi,
   zack,
   logo,
   backend,
@@ -69,7 +73,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   wordpress,

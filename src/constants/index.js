@@ -35,6 +35,7 @@ import {
   Yi,
   cafe,
   university,
+  starChat,
 } from "../assets"
 
 export const navLinks = [
@@ -44,7 +45,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -276,27 +277,29 @@ const projects = [
     image: cafe,
     source_code_link: "https://github.com/xiayulin123/user_back_end.git",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
+
+  {
+    name: "Social App",
+    description:
+      "Star Chat is a lightweight messaging application designed for seamless communication between users. It provides a delightful user experience and has been optimized to maximize its effectiveness.",
+    tags: [
+      {
+        name: "Socket",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Android Studio",
+        color: "brown-text-gradient",
+      },
+    ],
+    image: starChat,
+    source_code_link: "https://github.com/xiayulin123/StarChat_frontend",
+  },
+
   // {
   //   name: "Trip Guide",
   //   description:

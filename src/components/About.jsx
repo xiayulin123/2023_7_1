@@ -1,7 +1,7 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
-
+import infoback from '../assets/introback.jpg'
 import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'

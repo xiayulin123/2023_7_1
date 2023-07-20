@@ -43,7 +43,11 @@ import zack from "./zack.png"
 import Yi from './Yi.png'
 import cafe from './cafe.png'
 import university from './University.png'
+import infoback from './introback.jpg'
+import starChat from './starChat.png'
 export {
+  starChat,
+  infoback,
   university,
   cafe,
   Yi,

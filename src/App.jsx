@@ -11,6 +11,8 @@ import {
   StarsCanvas,
 } from './components'
 
+import infoback from './assets/intro.png'
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -20,7 +22,9 @@ const App = () => {
 
           <Hero />
         </div>
-        <About />
+        <div style={{ backgroundImage: `url(${infoback})` }}>
+          <About />
+        </div>
         <Experience />
         <Tech />
         <Works />

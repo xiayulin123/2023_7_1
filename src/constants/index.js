@@ -36,6 +36,11 @@ import {
   cafe,
   university,
   starChat,
+  about01,
+  about02,
+  about03,
+  about04,
+  AI,
 } from "../assets"
 
 export const navLinks = [
@@ -299,6 +304,27 @@ const projects = [
     image: starChat,
     source_code_link: "https://github.com/xiayulin123/StarChat_frontend",
   },
+  {
+    name: "Object Detection",
+    description:
+      "The AI project is an object recognition model developed in Jupyter Notebook using PyTorch, OpenCV, and NumPy to identify AirPods and water bottles in images with detailed instructions provided to retrain and extend the model's capabilities. The project also incorporates YOLOv5 for real-time object detection and an image labeling tool for data preparation.",
+    tags: [
+      {
+        name: "Node js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: AI,
+    source_code_link: "https://github.com/xiayulin123/Object_Detection",
+  },
 
   // {
   //   name: "Trip Guide",
@@ -322,5 +348,7 @@ const projects = [
   //   source_code_link: "https://github.com/",
   // },
 ]
+const images =
+  { about1: about01, about2: about02, about3: about03, about4: about04 }
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects, images }

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
-import infoback from '../assets/introback.jpg'
+import './css/About.css'
 import { styles } from '../styles'
-import { services } from '../constants'
+import { images } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 const ServiceCard = ({ index, title, icon }) => {
@@ -28,7 +28,30 @@ const ServiceCard = ({ index, title, icon }) => {
     </Tilt>
   )
 }
+
 const About = () => {
+  const abouts = [
+    {
+      title: 'Web Development',
+      description: 'I am a good web developer',
+      imgUrl: images.about1,
+    },
+    {
+      title: 'Backend Development',
+      description: 'I am a good backend developer',
+      imgUrl: images.about2,
+    },
+    {
+      title: 'Frontend Development',
+      description: 'I am a good frontend developer',
+      imgUrl: images.about3,
+    },
+    {
+      title: 'UI/UX Development',
+      description: 'I am a good UI/UX developer',
+      imgUrl: images.about4,
+    },
+  ]
   return (
     <>
       <motion.div variants={textVariant()} id="introduction">
@@ -49,9 +72,22 @@ const About = () => {
         user-friendly solutions that solve real-world problems.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+      <div className="app__profiles">
+        {abouts.map((about, index) => (
+          <motion.div
+            whileInView={{ opacity: 1 }}
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.5, type: 'tween' }}
+            className="app__profile-item"
+            key={about.title + index}>
+            <img src={about.imgUrl} alt={about.title} />
+            <h2 className="bold-text" style={{ marginTop: 20 }}>
+              {about.title}
+            </h2>
+            <p className="p-text" style={{ marginTop: 10 }}>
+              {about.description}
+            </p>
+          </motion.div>
         ))}
       </div>
     </>

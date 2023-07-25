@@ -13,7 +13,10 @@ import figma from "./tech/figma.png"
 import git from "./tech/git.png"
 import html from "./tech/html.png"
 import javascript from "./tech/javascript.png"
-
+import about01 from './about01.png'
+import about02 from './about02.png'
+import about03 from './about03.png'
+import about04 from './about04.png'
 import Cpp from "./tech/Cpp.png"
 import AI_micro from "./tech/AI_micro.png"
 import androidstudio from "./tech/androidstudio.png"
@@ -23,7 +26,7 @@ import mysql from "./tech/mysql.png"
 import python from "./tech/python.png"
 import postman from "./tech/postman.png"
 import wordpress from "./tech/wordpress.png"
-
+import AI from './AI.png'
 import mongodb from "./tech/mongodb.png"
 import nodejs from "./tech/nodejs.png"
 import reactjs from "./tech/reactjs.png"
@@ -46,6 +49,11 @@ import university from './University.png'
 import infoback from './introback.jpg'
 import starChat from './starChat.png'
 export {
+  AI,
+  about01,
+  about02,
+  about03,
+  about04,
   starChat,
   infoback,
   university,

@@ -26,15 +26,26 @@ const Hero = () => {
         <a href="#introduction">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
+              initial={{
+                y: '-100%',
+                opacity: 0,
+              }}
               animate={{
-                y: [0, 24, 0],
+                y: ['0%', '100%'],
+                opacity: [1, 0],
+                scale: [1, 1],
               }}
               transition={{
-                duration: 1.5,
+                duration: 3,
                 repeat: Infinity,
                 repeatType: 'loop',
+                ease: 'linear',
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-3 h-3 bg-secondary mb-1"
+              style={{
+                clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)',
+                boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)',
+              }}
             />
           </div>
         </a>

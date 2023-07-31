@@ -6,7 +6,8 @@ import web from "./web.png"
 import github from "./github.png"
 import menu from "./menu.svg"
 import close from "./close.svg"
-
+import yulinnote from "./Yulinnote.png"
+import house from './house.png'
 import css from "./tech/css.png"
 import docker from "./tech/docker.png"
 import figma from "./tech/figma.png"
@@ -17,6 +18,7 @@ import about01 from './about01.png'
 import about02 from './about02.png'
 import about03 from './about03.png'
 import about04 from './about04.png'
+import about05 from './about05.png'
 import Cpp from "./tech/Cpp.png"
 import AI_micro from "./tech/AI_micro.png"
 import androidstudio from "./tech/androidstudio.png"
@@ -49,6 +51,9 @@ import university from './University.png'
 import infoback from './introback.jpg'
 import starChat from './starChat.png'
 export {
+  about05,
+  house,
+  yulinnote,
   AI,
   about01,
   about02,

@@ -40,7 +40,10 @@ import {
   about02,
   about03,
   about04,
+  about05,
   AI,
+  yulinnote,
+  house,
 } from "../assets"
 
 export const navLinks = [
@@ -282,6 +285,27 @@ const projects = [
     image: cafe,
     source_code_link: "https://github.com/xiayulin123/user_back_end.git",
   },
+  {
+    name: "yulinnote.online",
+    description:
+      "YulinNote is a notes website with both front-end and back-end deployed on Oracle Cloud, connected to a Mongo database. It allows users to record notes and includes authentication functionality.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "brown-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Oracle",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: yulinnote,
+    source_code_link: "https://github.com/xiayulin123/NoteBook",
+  },
 
   {
     name: "Social App",
@@ -303,6 +327,27 @@ const projects = [
     ],
     image: starChat,
     source_code_link: "https://github.com/xiayulin123/StarChat_frontend",
+  },
+  {
+    name: "Prediction Model",
+    description:
+      "This repository houses two AI models, one for movie rating prediction (Movie_Rate) and the other for California housing price estimation (California_Housing), utilizing Python libraries like Pandas, NumPy, Matplotlib, and Seaborn, along with datasets from Kaggle, to train and optimize these models, resulting in highly efficient and accurate predictions.",
+    tags: [
+      {
+        name: "Pandas",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "NumPy",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Matplotlib",
+        color: "green-text-gradient",
+      },
+    ],
+    image: house,
+    source_code_link: "https://github.com/xiayulin123/MovieRate_and_CaliforniaHousing_AI_Model",
   },
   {
     name: "Object Detection",
@@ -349,6 +394,6 @@ const projects = [
   // },
 ]
 const images =
-  { about1: about01, about2: about02, about3: about03, about4: about04 }
+  { about1: about01, about2: about02, about3: about03, about4: about04, about5: about05 }
 
 export { services, technologies, experiences, testimonials, projects, images }

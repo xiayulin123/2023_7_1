@@ -32,24 +32,34 @@ import { SectionWrapper } from '../hoc'
 const About = () => {
   const abouts = [
     {
-      title: 'Web Development',
-      description: 'I am a good web developer',
+      title: 'Web and App Development',
+      description:
+        'possess a comprehensive understanding of both frontend and backend development',
       imgUrl: images.about1,
     },
     {
       title: 'Backend Development',
-      description: 'I am a good backend developer',
+      description:
+        'Skilled in backend development and capable of establishing connections to database for efficient data transmission',
       imgUrl: images.about2,
     },
     {
       title: 'Frontend Development',
-      description: 'I am a good frontend developer',
+      description:
+        'Proficient in using HTML, CSS, React etc. to create interactive and user-friendly user interfaces for web applications.',
       imgUrl: images.about3,
     },
     {
-      title: 'UI/UX Development',
-      description: 'I am a good UI/UX developer',
+      title: 'Server Deployment and Cloud Computing',
+      description:
+        'Experienced in deploying web applications and backend services on Oracle and AWS servers, ensuring efficient performance and scalability',
       imgUrl: images.about4,
+    },
+    {
+      title: 'AI Model Training',
+      description:
+        'Well-versed in training regression models for predictive analysis and object detection models for image and video processing tasks',
+      imgUrl: images.about5,
     },
   ]
   return (

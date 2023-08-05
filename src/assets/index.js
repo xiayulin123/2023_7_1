@@ -7,6 +7,7 @@ import github from "./github.png"
 import menu from "./menu.svg"
 import close from "./close.svg"
 import yulinnote from "./Yulinnote.png"
+import faceDetection from './faceDetection.png'
 import house from './house.png'
 import css from "./tech/css.png"
 import docker from "./tech/docker.png"
@@ -51,6 +52,7 @@ import university from './University.png'
 import infoback from './introback.jpg'
 import starChat from './starChat.png'
 export {
+  faceDetection,
   about05,
   house,
   yulinnote,

@@ -44,6 +44,7 @@ import {
   AI,
   yulinnote,
   house,
+  faceDetection,
 } from "../assets"
 
 export const navLinks = [
@@ -324,8 +325,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: yulinnote,
-    source_code_link: "https://github.com/xiayulin123/NoteBook",
+    image: faceDetection,
+    source_code_link: "https://github.com/xiayulin123/Facial_Recognition",
   },
 
   {

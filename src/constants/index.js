@@ -306,6 +306,27 @@ const projects = [
     image: yulinnote,
     source_code_link: "https://github.com/xiayulin123/NoteBook",
   },
+  {
+    name: "FaceSim Detect",
+    description:
+      "FaceSim Detect is an advanced facial recognition system utilizing Siamese network architecture. It offers real-time facial verification and detection, capturing images from webcams and computing similarity distances. Securely designed with TensorFlow and OpenCV, it ensures user confidence through robust authentication.",
+    tags: [
+      {
+        name: "TensorFlow",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Security",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: yulinnote,
+    source_code_link: "https://github.com/xiayulin123/NoteBook",
+  },
 
   {
     name: "Social App",
@@ -322,7 +343,7 @@ const projects = [
       },
       {
         name: "Android Studio",
-        color: "brown-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: starChat,

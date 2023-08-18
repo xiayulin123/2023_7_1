@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/CSS-Style%20and%20Design-blue" alt="CSS">
   <img src="https://img.shields.io/badge/Tailwind%20CSS-Responsive%20Design-blue" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/JavaScript-Interactivity-blue" alt="JavaScript">
+  
 </p>
 
 ## 🌐 Project Introduction

@@ -191,8 +191,8 @@ const experiences = [
     points: [
       // 待修改
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Collaborated with diverse teams, delivering innovative AI‑driven solutions using Azure services, and applying Design Thinking methodologies to address intricate challenges.",
+      "Achieved certifications in Azure Fundamentals and Azure AI Fundamentals, acquiring practical skills in deploying, managing, and configuring Azure resources and AI services.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },

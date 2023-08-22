@@ -37,7 +37,7 @@ import redux from "./tech/redux.png"
 import tailwind from "./tech/tailwind.png"
 import typescript from "./tech/typescript.png"
 import threejs from "./tech/threejs.svg"
-
+import characterAI from './characterAI.png'
 import meta from "./company/meta.png"
 import shopify from "./company/shopify.png"
 import starbucks from "./company/starbucks.png"
@@ -52,6 +52,7 @@ import university from './University.png'
 import infoback from './introback.jpg'
 import starChat from './starChat.png'
 export {
+  characterAI,
   faceDetection,
   about05,
   house,

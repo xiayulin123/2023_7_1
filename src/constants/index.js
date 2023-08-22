@@ -45,6 +45,7 @@ import {
   yulinnote,
   house,
   faceDetection,
+  characterAI,
 } from "../assets"
 
 export const navLinks = [
@@ -196,45 +197,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  
 ]
 
 const testimonials = [
@@ -287,6 +250,26 @@ const projects = [
     source_code_link: "https://github.com/xiayulin123/user_back_end.git",
   },
   {
+    name: "character-ai.digital",
+    description: "It's tailored chatbot, built with Next.js and Clerk for authentication, seamlessly integrates AI capabilities through openai edge. It scales using Prisma, planetscale, and cloudinary, and strong security via langchain and zod.",
+    tags: [
+      {
+        name: "Next js",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: characterAI,
+    source_code_link: "https://github.com/xiayulin123/Character-AI"
+  },
+  {
     name: "yulinnote.online",
     description:
       "YulinNote is a notes website with both front-end and back-end deployed on Oracle Cloud, connected to a Mongo database. It allows users to record notes and includes authentication functionality.",
@@ -308,7 +291,7 @@ const projects = [
     source_code_link: "https://github.com/xiayulin123/NoteBook",
   },
   {
-    name: "FaceSim Detect",
+    name: "Facial Detect",
     description:
       "FaceSim Detect is an advanced facial recognition system utilizing Siamese network architecture. It offers real-time facial verification and detection, capturing images from webcams and computing similarity distances. Securely designed with TensorFlow and OpenCV, it ensures user confidence through robust authentication.",
     tags: [

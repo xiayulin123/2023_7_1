@@ -20,17 +20,8 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  jobit,
-  tripguide,
-  threejs,
   zack,
   Yi,
   cafe,
@@ -46,6 +37,7 @@ import {
   house,
   faceDetection,
   characterAI,
+ 
 } from "../assets"
 
 export const navLinks = [
@@ -158,8 +150,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "aws",
+    icon: aws,
   },
   {
     name: "docker",
@@ -230,6 +222,7 @@ const testimonials = [
 const projects = [
   {
     name: "Cafe Website",
+    type: "Fullstack",
     description:
       "Developed a responsive website using Node.js as the backend framework, along with HTML, CSS, and MySQL for the frontend. Implemented a user reservation system and an admin panel for efficient management.",
     tags: [
@@ -251,6 +244,7 @@ const projects = [
   },
   {
     name: "character-ai.digital",
+    type: "AI",
     description: "It's tailored chatbot, built with Next.js and Clerk for authentication, seamlessly integrates AI capabilities through openai edge. It scales using Prisma, planetscale, and cloudinary, and strong security via langchain and zod.",
     tags: [
       {
@@ -271,6 +265,7 @@ const projects = [
   },
   {
     name: "yulinnote.online",
+    type: "Fullstack",
     description:
       "YulinNote is a notes website with both front-end and back-end deployed on Oracle Cloud, connected to a Mongo database. It allows users to record notes and includes authentication functionality.",
     tags: [
@@ -292,6 +287,7 @@ const projects = [
   },
   {
     name: "Facial Detect",
+    type: "AI",
     description:
       "FaceSim Detect is an advanced facial recognition system utilizing Siamese network architecture. It offers real-time facial verification and detection, capturing images from webcams and computing similarity distances. Securely designed with TensorFlow and OpenCV, it ensures user confidence through robust authentication.",
     tags: [
@@ -314,6 +310,7 @@ const projects = [
 
   {
     name: "Social App",
+    type: "Fullstack",
     description:
       "Star Chat is a lightweight messaging application designed for seamless communication between users. It provides a delightful user experience and has been optimized to maximize its effectiveness.",
     tags: [
@@ -335,6 +332,7 @@ const projects = [
   },
   {
     name: "Prediction Model",
+    type: "AI",
     description:
       "This repository houses two AI models, one for movie rating prediction (Movie_Rate) and the other for California housing price estimation (California_Housing), utilizing Python libraries like Pandas, NumPy, Matplotlib, and Seaborn, along with datasets from Kaggle, to train and optimize these models, resulting in highly efficient and accurate predictions.",
     tags: [
@@ -356,6 +354,7 @@ const projects = [
   },
   {
     name: "Object Detection",
+    type: "AI",
     description:
       "The AI project is an object recognition model developed in Jupyter Notebook using PyTorch, OpenCV, and NumPy to identify AirPods and water bottles in images with detailed instructions provided to retrain and extend the model's capabilities. The project also incorporates YOLOv5 for real-time object detection and an image labeling tool for data preparation.",
     tags: [

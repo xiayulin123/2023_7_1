@@ -12,6 +12,7 @@ import house from './house.png'
 import css from "./tech/css.png"
 import docker from "./tech/docker.png"
 import figma from "./tech/figma.png"
+import aws from "./tech/aws.png"
 import git from "./tech/git.png"
 import html from "./tech/html.png"
 import javascript from "./tech/javascript.png"
@@ -23,7 +24,6 @@ import about05 from './about05.png'
 import Cpp from "./tech/Cpp.png"
 import AI_micro from "./tech/AI_micro.png"
 import androidstudio from "./tech/androidstudio.png"
-import aws from "./tech/aws.png"
 import dBeaver from "./tech/dBeaver.png"
 import mysql from "./tech/mysql.png"
 import python from "./tech/python.png"
@@ -52,6 +52,7 @@ import university from './University.png'
 import infoback from './introback.jpg'
 import starChat from './starChat.png'
 export {
+  aws,
   characterAI,
   faceDetection,
   about05,
@@ -96,7 +97,7 @@ export {
   jobit,
   tripguide,
   wordpress,
-  aws,
+
   dBeaver,
   androidstudio,
   python,

@@ -198,9 +198,9 @@ const experiences = [
     date: "Jan 8 2024 - Apr 19 2024",
     points: [
       // 待修改
-      "Engineered advanced analytics functionality within the SYNC system's Human-Machine Interface, enhancing user interaction data collection and assessment.",
-      "Fostered cross-functional collaboration to drive innovative solution development with React, leveraging Design Thinking approaches for complex problem-solving.",
-      "Proficient in utilizing Linux for the modification and enhancement of SYNC system components in a bench testing environment.",
+      "Led the advancement of analytics capabilities in the SYNC HMI, Ford's integrated in-car communication and infotainment system, significantly enhancing data collection and user interaction analysis to derive actionable insights for system refinement.",
+      "Championed cross-functional collaboration, utilizing React and Design Thinking to drive innovative solution development, expediting the delivery of complex problem-solving features.",
+      "Expertly employed Linux to modify and enhance Ford SYNC system components, showcasing profound knowledge of the platform through successful bench testing and optimization.",
       "Actively engaged in peer code reviews, offering valuable and constructive feedback to promote continuous improvement and collaborative development.",
     ],
   }

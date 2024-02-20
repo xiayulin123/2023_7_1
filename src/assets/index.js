@@ -42,7 +42,7 @@ import meta from "./company/meta.png"
 import shopify from "./company/shopify.png"
 import starbucks from "./company/starbucks.png"
 import tesla from "./company/tesla.png"
-
+import ford from "./company/ford.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
 import zack from "./zack.png"
@@ -97,7 +97,7 @@ export {
   jobit,
   tripguide,
   wordpress,
-
+  ford,
   dBeaver,
   androidstudio,
   python,

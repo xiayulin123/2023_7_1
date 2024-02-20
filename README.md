@@ -42,6 +42,6 @@ Comprehensive documentation is provided to guide users through the website's fea
 
 I welcome contributions and feedback from the community to improve and refine the website. Your insights and suggestions are valuable in shaping the future direction of my personal website.
 
-## 🌟 Explore xiayulin.online
+## 🌟 Explore xiayulin.life
 
 Visit [xiayulin.life](https://xiayulin.life) to immerse yourself in a journey through my experiences, projects, and more. Experience the synergy of technology, design, and creativity on my personal website.

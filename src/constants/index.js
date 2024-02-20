@@ -37,7 +37,8 @@ import {
   house,
   faceDetection,
   characterAI,
- 
+  ford,
+
 } from "../assets"
 
 export const navLinks = [
@@ -180,7 +181,7 @@ const experiences = [
     company_name: "Caerulean AI Inc.",
     icon: reactjs,
     iconBg: "#383E56",
-    date: "May 1 2023 - August 31 2023",
+    date: "May 1 2024 - August 31 2023",
     points: [
       // 待修改
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -189,6 +190,20 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Software Developer SYNC HMI",
+    company_name: "Ford Motor Company of Canada, Limited",
+    icon: ford,
+    iconBg: "#00095B",
+    date: "Jan 8 2024 - Apr 19 2024",
+    points: [
+      // 待修改
+      "Engineered advanced analytics functionality within the SYNC system's Human-Machine Interface, enhancing user interaction data collection and assessment.",
+      "Fostered cross-functional collaboration to drive innovative solution development with React, leveraging Design Thinking approaches for complex problem-solving.",
+      "Proficient in utilizing Linux for the modification and enhancement of SYNC system components in a bench testing environment.",
+      "Actively engaged in peer code reviews, offering valuable and constructive feedback to promote continuous improvement and collaborative development.",
+    ],
+  }
   
 ]
 
@@ -375,27 +390,6 @@ const projects = [
     source_code_link: "https://github.com/xiayulin123/Object_Detection",
   },
 
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ]
 const images =
   { about1: about01, about2: about02, about3: about03, about4: about04, about5: about05 }

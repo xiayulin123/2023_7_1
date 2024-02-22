@@ -42,7 +42,7 @@ const Works = () => {
       const projectsArray = Object.values(data);
       const filteredProjects = selectedType
         ? projectsArray.filter(project => project.type.includes(selectedType))
-        : projectsArray;
+        : projectsArray.slice(0,9);
 
       setDB_Projects(filteredProjects);
     });
@@ -70,12 +70,12 @@ const Works = () => {
           to deliver high-quality solutions.
         </motion.p>
       </div>
-      <div className="mt-10 flex gap-6">
+      <div className="flex flex-wrap gap-2 justify-center md:justify-start mt-4">
       <button
           className={`bg-slate-800 hover:bg-slate-500 text-white px-4 py-2 rounded ${selectedType === 'AI' ? 'bg-slate-500' : ''
             }`}
           onClick={() => setSelectedType('')}>
-          ALL
+          Quick View
         </button>
         <button
           className={`bg-slate-800 hover:bg-slate-500 text-white px-4 py-2 rounded ${selectedType === 'CI/CD' ? 'bg-slate-500' : ''

@@ -92,8 +92,8 @@ const Works = () => {
         <button
           className={`bg-slate-800 hover:bg-slate-500 text-white px-4 py-2 rounded ${selectedType === 'AI' ? 'bg-slate-500' : ''
             }`}
-          onClick={() => setSelectedType('Unity')}>
-          Unity
+          onClick={() => setSelectedType('Game')}>
+          Game
         </button>
         <button
           className={`bg-slate-800 hover:bg-slate-500 text-white px-4 py-2 rounded ${selectedType === 'AI' ? 'bg-slate-500' : ''
